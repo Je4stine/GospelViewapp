@@ -81,7 +81,7 @@ const Tabs = createMaterialTopTabNavigator(
 );
 
 const MainScreenNavigator = createStackNavigator({
-  const navigation = navigate();
+  const navigation = useNavigation();
   Tabs: {
     screen: Tabs,
     navigationOptions :{
